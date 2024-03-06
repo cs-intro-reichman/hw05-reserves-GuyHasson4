@@ -14,7 +14,7 @@ public class GameOfLife {
 		//// test1(fileName);
 		//// test2(fileName);
 		//// test3(fileName, 3);
-		 play(fileName);
+		//// play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -158,7 +158,7 @@ public class GameOfLife {
 		//// Write your code here.
 		for(int i = 1; i < arr.length - 1; i++){
 			for (int j = 1; j < arr[i].length - 1; j++){
-				System.out.printf("%3s", (arr[i][j] == 1) ? "x" : ".");
+				System.out.printf("%3s", (arr[i][j] == 1) ? "1" : "0");
 			}
 			System.out.println();
 		}
